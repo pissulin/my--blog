@@ -1,0 +1,29 @@
+.list{
+    list-style: none;
+    padding: 1em 0;
+    display: flex;
+}
+
+.list > * + * {
+    margin-left: 1em;
+}
+
+.navAnchor {
+    text-decoration: none;
+    padding: 10px;
+}
+
+.navAnchor:hover,
+.navAnchor:focus {
+    background-color: rgb(58, 57, 57);
+    color: rgb(255, 255, 255);
+    
+    border-radius: 10px;
+}
+
+.ativo{
+    background-color: black;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 10px;
+}
